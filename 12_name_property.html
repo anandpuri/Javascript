@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function Add()
+            {
+                var num1 = parseInt(document.form1.num1.value);
+                var num2 = parseInt(document.form1.num2.value);
+                var sum =num1+num2;
+                document.form1.res.value=sum;
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+            Number1 : <input type="number" name="num1"><br>
+            Number2 : <input type="number" name="num2"><br>
+            Result : <input type="number" name="res"><br>
+            <input type="button" name="btn1" value="Add" onClick="Add()">
+        </form>
+    </body>
+</html>

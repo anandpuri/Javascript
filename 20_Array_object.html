@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Integer Array-->
+        <script>
+            document.write("Integer Array Example"+"<br>"+"<br>")
+            var i;
+            var num=[1,2,3,4,5];
+            var num1=[6,7,8,9,10];
+            
+            for(i=0;i<5;i++)
+            {
+                document.write(num[i]);
+            }
+            document.write("<br>"+"<br>");
+
+            var num2=num.concat(num1);
+            document.write("Conact:"+num2+"<br>");
+            document.write("indexof(2): "+num.indexOf(2)+"<br>");
+            document.write("reverse(): "+num2.reverse()+"<br>");
+            document.write("join(): "+num.join()+"<br>");
+
+
+        </script>
+            <br><br>
+
+
+        <script>
+            document.write("String Array Example"+"<br>"+"<br>")
+            var i;
+            var fruits=["Banana","Apple","Orange","Mango"];
+            
+        
+            for(i=0;i<fruits.length;++i)
+            {
+                document.write("<li>"+fruits[i]+"</li>")
+            }
+            document.write("<br>"+"<br>");
+
+            fruits.splice('grapes');
+            document.write("splice(): "+fruits+"<br>");
+            
+        </script>
+    </head>
+</html>
